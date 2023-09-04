@@ -1,0 +1,111 @@
+{
+  // Include all files in the "src" directory.
+  "include": ["src"],
+
+  // Exclude all files in the "node_modules" directory.
+  "exclude": ["node_modules"],
+
+  // Specify the compiler options for TypeScript.
+  "ts-node": { "files": true },
+
+  "compilerOptions": {
+    // Specify the target JavaScript version to compile to (ESNext).
+    "target": "ESNext",
+
+    // Set the module system to CommonJS.
+    "module": "commonjs",
+
+    // Enable Node.js module resolution for importing modules.
+    "moduleResolution": "node",
+
+    // Output directory for compiled TypeScript files.
+    "outDir": "dist",
+
+    // Disable source map generation for debugging.
+    "sourceMap": false,
+
+    // Enable compatibility with ES modules when using CommonJS.
+    "esModuleInterop": true,
+
+    // Allow the use of experimental decorators.
+    "experimentalDecorators": true,
+
+    // Emit decorator metadata for reflection.
+    "emitDecoratorMetadata": true,
+
+    // Allow importing from modules with a synthetic default export.
+    "allowSyntheticDefaultImports": true,
+
+    // Skip type checking of declaration files.
+    "skipLibCheck": true,
+
+    // Skip default library declaration file checks.
+    "skipDefaultLibCheck": true,
+
+    // Enable importing JSON files as modules.
+    "resolveJsonModule": true,
+
+    // Import helper functions from tslib to reduce bundle size.
+    "importHelpers": true,
+
+    // Enable strict mode, which includes several type checking options.
+    "strict": true,
+
+    // Enforce the use of "use strict" in generated JavaScript.
+    "alwaysStrict": true,
+
+    // Report errors for implicit 'any' types.
+    "noImplicitAny": true,
+
+    // Report errors for 'this' expressions with an implicit 'any' type.
+    "noImplicitThis": true,
+
+    // Enable strict null checking to catch potential null and undefined errors.
+    "strictNullChecks": true,
+
+    // Enforce strict checking of function call, apply, and bind methods.
+    "strictBindCallApply": true,
+
+    // Enable strict checking of function types.
+    "strictFunctionTypes": true,
+
+    // Enforce strict property initialization for class properties.
+    "strictPropertyInitialization": true,
+
+    // Use the 'unknown' type in catch variables instead of 'any'.
+    "useUnknownInCatchVariables": true,
+
+    // Report errors for unused local variables.
+    "noUnusedLocals": true,
+
+    // Report errors for unused function parameters.
+    "noUnusedParameters": true,
+
+    // Disallow unused labels in code.
+    "allowUnusedLabels": false,
+
+    // Disallow unreachable code.
+    "allowUnreachableCode": false,
+
+    // Report errors for missing method implementations in derived classes.
+    "noImplicitOverride": true,
+
+    // Report errors for functions that don't have a return statement.
+    "noImplicitReturns": true,
+
+    // Disallow unchecked indexed property access.
+    "noUncheckedIndexedAccess": true,
+
+    // Disallow property access from index signatures.
+    "noPropertyAccessFromIndexSignature": true,
+
+    // Report errors for fallthrough cases in switch statements.
+    "noFallthroughCasesInSwitch": true,
+
+    // Enforce exact types for optional properties.
+    "exactOptionalPropertyTypes": true,
+
+    // Enforce consistent casing in file names (for case-sensitive file systems).
+    "forceConsistentCasingInFileNames": true
+  }
+}
